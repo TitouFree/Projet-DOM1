@@ -1,7 +1,7 @@
 let qteShoes = document.getElementById('qtyshoes');
-let qteSocks = document.getElementById('qtysocks'); //
-let prixTotal = document.getElementById('total'); //
+let qteSocks = document.getElementById('qtysocks'); 
 let qteBags = document.getElementById('qtybags');
+let prixTotal = document.getElementById('total'); 
 
 
 

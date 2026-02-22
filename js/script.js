@@ -3,7 +3,10 @@ let qteSocks = document.getElementById('qtysocks'); //
 let prixTotal = document.getElementById('total'); //
 let qteBags = document.getElementById('qtybags');
 
+
+
                //Ajouter article
+
 //Shoes
 let btnPlus1 = document.querySelector('#plus1') ;
 btnPlus1.onclick=cliquePlus1;
@@ -89,7 +92,6 @@ recalculerTotal();
 }
 
 
-
                    //Vider Panier 
 
 //Shoes
@@ -136,22 +138,18 @@ recalculerTotal();
 }
 }
 
+
+
                     //TOTAL PANIER 
-function recalculerTotal() {
-let nShoes = parseInt(qteShoes.textContent);
-let nSocks = parseInt(qteSocks.textContent);
-let nBags  = parseInt(qteBags.textContent);
 
 function recalculerTotal() {
 let nShoes = parseInt(qteShoes.textContent);
 let nSocks = parseInt(qteSocks.textContent);
 let nBags  = parseInt(qteBags.textContent);
-
 let total = nShoes * 100 + nSocks * 20 + nBags * 50;
 prixTotal.textContent = total;
 }
 
-}
 
 
 
